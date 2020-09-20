@@ -1,131 +1,91 @@
 {
-  "main": {
-    "name": "David Ceballos",
-    "occupation": "Software Engineer and Security Analyst",
-    "description": "I enjoy sharing my passion of all things technological. I believe that utilizing technology along with innovative thinking is critical to the advancement of social good",
-    "image": "",
-    "bio": "I have gained strategic experience from working within both larger corporations and bootstrapping startups. This in turn helped me accumulate a demonstrated history of developing applications and working with teams that increase growth and help improve those around me.",
-    "contactmessage": "Reach out to me for any further details.",
-    "email": "email@email.com",
-    "address": {
-      "city": "Marietta",
-      "state": "GA"
-    },
-    "website": ".",
-    "resumedownload": ".",
-    "social": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/dceball",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/DCebo",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Amalgamation of engineering skillset",
-    "education": [
-      {
-        "school": "Kenesaw State University",
-        "degree": "Bachelor of Science, Major - Electrical Engineering | Minor - Computer Science",
-        "graduated": "Decemeber 2020",
-        "description": "Graduated with Distinction"
-      }
-    ],
-    "work": [
-      {
-        "company": "Cybriant",
-        "title": "Software Engineer and Security Analyst",
-        "years": "August 2019 - Present",
-        "description": "Description."
-      },
-      {
-        "company": "MR Systems",
-        "title": "Project Engineer",
-        "years": "July 2018 - August 2019",
-        "description": "Description."
-      },
-      {
-        "company": "Kennesaw State University",
-        "title": "Undergraduate Research Assistant",
-        "years": "January 2019 - July 2019",
-        "description": "Description."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Python"
-      },
-      {
-        "name": "ReactJs",
-        "level": "100%"
-      },
-      {
-        "name": "CSS",
-        "level": "95%"
-      },
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Figma && Adobe XD",
-        "level": "55%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
-      },
-      {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "I enjoy sharing my passion of all things technological and believe that utilizing technology along with innovative thinking is critical to the advancement of social good. I have gained strategic experience from working within both larger corporations and bootstrapping startups. This in turn helped me accumulate a demonstrated history of developing applications and working with teams that increase growth and help improve those around me.",
-        "user": "Me"
-      }
-    ]
-  }
+	"main": {
+		"name": "David Ceballos",
+		"occupation": "Software Engineer and Security Analyst",
+		"description": "I am an enthusiastic engineer that enjoys sharing my passion of all things technological. I believe that utilizing technology along with innovative thinking is critical to the advancement of social good",
+		"image": "",
+		"bio": "I have gained strategic experience from working within both larger corporations and bootstrapping startups. This in turn helped me accumulate a demonstrated history of developing applications and working with teams that increase growth and help improve those around me.",
+		"contactmessage": "Reach out to me for any further details.",
+		"email": "email@email.com",
+		"address": {
+			"city": "Marietta",
+			"state": "GA"
+		},
+		"website": ".",
+		"resumedownload": ".",
+		"social": [
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/dceball",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "github",
+				"url": "http://github.com/DCebo",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "",
+		"education": [
+			{
+				"school": "Kenesaw State University",
+				"degree": "Bachelor of Science, Electrical Engineering",
+				"degree2": "Minor - Computer Science",
+				"graduated": "December 2020",
+				"description": "Dean's List"
+			}
+		],
+		"work": [
+			{
+				"company": "Cybriant",
+				"title": "Software Engineer and Security Analyst",
+				"years": "August 2019 - Present",
+        "description": "Own the design, creation, and implementation of internal applications while maintaining integrity of system interactions."
+			},
+			{
+				"company": "MR Systems",
+				"title": "Project Engineer",
+				"years": "July 2018 - August 2019",
+				"description": "Project engineer on the Design team creating control systems for municipalities across the southeast region."
+			},
+			{
+				"company": "Kennesaw State University",
+				"title": "Undergraduate Research Assistant",
+				"years": "January 2019 - July 2019",
+				"description": "Partnered with National Geographic to develop and present a machine learning application to identify a manatee by its scars."
+			},
+			{
+				"company": "Geek Squad",
+				"title": "Lead Autotech",
+				"years": "June 2013 – July 2018",
+				"description": "Trained 20+ installation bay employees throughout district and 50+ in store associates while being awarded recognition for surpassing sales goals month over month by 15% to 39%"
+			}
+		],
+		"skills": [
+			{
+				"name": "",
+				"level": "100%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Amazon Clone",
+				"category": "Amazon clone built with ReactJS - (Authentication, React Context API, Full Ecommerce)",
+				"image": "amazon-clone.jpg",
+				"url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+			}
+		]
+	},
+	"testimonials": {
+		"testimonials": [
+			{
+				"text": "I enjoy sharing my passion of all things technological and believe that utilizing technology along with innovative thinking is critical to the advancement of social good. I have gained strategic experience from working within both larger corporations and bootstrapping startups. This in turn helped me accumulate a demonstrated history of developing applications and working with teams that increase growth and help improve those around me.",
+				"user": "Me"
+			}
+		]
+	}
 }

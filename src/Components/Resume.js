@@ -1,5 +1,4 @@
-import React, { Component }  from "react";
-
+import React, { Component } from "react";
 
 class Resume extends Component {
 	render() {
@@ -11,10 +10,15 @@ class Resume extends Component {
 						<h3>{education.school}</h3>
 						<p className="info">
 							{education.degree}
-							<br /> <span>&bull;</span>
+							<br />
+							{education.degree2}
+							<br />
+							{/* <span>&bull;</span> */}
 							<em className="date">
+								<span>&bull;</span>
 								{education.graduated}
 								<br />
+								<span>&bull;</span>
 								{education.description}
 							</em>
 						</p>
@@ -47,6 +51,16 @@ class Resume extends Component {
 
 		return (
 			<section id="resume">
+				<div className="row work">
+					<div className="three columns header-col">
+						<h1>
+							<span>Work</span>
+						</h1>
+					</div>
+
+					<div className="nine columns main-col">{work}</div>
+				</div>
+
 				<div className="row education">
 					<div className="three columns header-col">
 						<h1>
@@ -61,28 +75,38 @@ class Resume extends Component {
 					</div>
 				</div>
 
-				<div className="row work">
-					<div className="three columns header-col">
-						<h1>
-							<span>Work</span>
-						</h1>
-					</div>
-
-					<div className="nine columns main-col">{work}</div>
-				</div>
-
 				<div className="row skill">
 					<div className="three columns header-col">
 						<h1>
 							<span>Skills</span>
 						</h1>
 					</div>
-
 					<div className="nine columns main-col">
 						<p>{skillmessage}</p>
 
 						<div className="bars">
-							<ul className="skills">{skills}</ul>
+							{/* <ul className="skills">{skills}</ul> */}
+						</div>
+						<div className="row__Skill">
+							<p className="labels">
+								Abilities:{" "}
+								<p className="skills">
+									Python · Java · Javascript · HTML · CSS · C · C++ · Assembly ·
+									MATLAB
+								</p>
+							</p>
+
+							<p className="labels">
+								Tools:{" "}
+								<p className="skills">
+									React.js · GIT · VSCode · Eclipse · Atom · XCode· Azure · Zoho
+									· Agile · Scrum · AutoCAD Electrical
+								</p>
+							</p>
+
+							<p className="labels">
+								Languages: <p className="skills">Fluent: English · Spanish</p>
+							</p>
 						</div>
 					</div>
 				</div>

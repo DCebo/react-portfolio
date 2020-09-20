@@ -14,8 +14,10 @@ class About extends Component {
 		return (
 			<section id="about">
 				<div className="row">
-					<div className="three columns"></div>
-					<div className="nine columns main-col">
+					{/* <div className="three columns"></div> */}
+					<h1>About Me</h1>
+					<p>{bio}</p>
+					{/* <div className="nine columns main-col">
 						<h2>About Me</h2>
 
 						<p>{bio}</p>
@@ -38,7 +40,7 @@ class About extends Component {
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</section>
 		);

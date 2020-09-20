@@ -41,20 +41,21 @@ class Header extends Component {
 							</a>
 						</li>
 						<li>
-							<a className="smoothscroll" href="#resume">
-								Resume
-							</a>
-						</li>
-						<li>
 							<a className="smoothscroll" href="#portfolio">
 								Projects
 							</a>
 						</li>
 						<li>
+							<a className="smoothscroll" href="#resume">
+								Resume
+							</a>
+						</li>
+
+						{/* <li>
 							<a className="smoothscroll" href="#testimonials">
 								Testimonials
 							</a>
-						</li>
+						</li> */}
 						<li>
 							<a className="smoothscroll" href="#contact">
 								Contact
@@ -67,7 +68,8 @@ class Header extends Component {
 					<div className="banner-text">
 						<h1 className="responsive-headline">I'm {name}.</h1>
 						<h3 className="description__header">
-							I'm a <span>{occupation}</span> and {description}.
+							{/* I'm a <span>{occupation}</span> and {description}. */}
+							{description}.
 						</h3>
 						<hr />
 						<ul className="social">{networks}</ul>
