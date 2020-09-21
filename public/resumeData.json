@@ -11,7 +11,7 @@
 			"city": "Marietta",
 			"state": "GA"
 		},
-		"website": ".",
+		"website": "davidceballos.me",
 		"resumedownload": ".",
 		"social": [
 			{
@@ -42,7 +42,7 @@
 				"company": "Cybriant",
 				"title": "Software Engineer and Security Analyst",
 				"years": "August 2019 - Present",
-        "description": "Own the design, creation, and implementation of internal applications while maintaining integrity of system interactions."
+				"description": "Own the design, creation, and implementation of internal applications while maintaining integrity of system interactions."
 			},
 			{
 				"company": "MR Systems",
