@@ -26,7 +26,7 @@ class Footer extends Component {
 
 						<ul className="copyright">
 							<li>
-								&copy; Copyright 2020 David Ceballos
+								&copy;2020 Copyright. All Rights Reserved.
 							</li>
 						</ul>
 					</div>
