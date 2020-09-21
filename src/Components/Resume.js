@@ -84,12 +84,10 @@ class Resume extends Component {
 					<div className="nine columns main-col">
 						<p>{skillmessage}</p>
 
-						<div className="bars">
-							{/* <ul className="skills">{skills}</ul> */}
-						</div>
+						<div className="bars"></div>
 						<div className="row__Skill">
 							<p className="labels">
-								Abilities:{" "}
+								Abilities
 								<p className="skills">
 									Python · Java · Javascript · HTML · CSS · C · C++ · Assembly ·
 									MATLAB
@@ -97,7 +95,7 @@ class Resume extends Component {
 							</p>
 
 							<p className="labels">
-								Tools:{" "}
+								Tools
 								<p className="skills">
 									React.js · GIT · VSCode · Eclipse · Atom · XCode· Azure · Zoho
 									· Agile · Scrum · AutoCAD Electrical
@@ -105,7 +103,8 @@ class Resume extends Component {
 							</p>
 
 							<p className="labels">
-								Languages: <p className="skills">Fluent: English · Spanish</p>
+								Languages
+								<p className="skills">Fluent: English · Spanish</p>
 							</p>
 						</div>
 					</div>
