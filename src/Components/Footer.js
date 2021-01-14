@@ -20,9 +20,9 @@ class Footer extends Component {
 					<div className="twelve columns">
 						<ul className="social-links">{networks}</ul>
 
-						<ul>
+						{/* <ul>
 							<li>Look forward to working with you</li>
-						</ul>
+						</ul> */}
 
 						<ul className="copyright">
 							<li>

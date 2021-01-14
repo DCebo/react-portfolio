@@ -17,8 +17,8 @@ class About extends Component {
 					{/* <div className="three columns"></div> */}
 					<h1>About Me</h1>
 					<p>{bio}</p>
-					{/* <div className="nine columns main-col">
-						<h2>About Me</h2>
+					<div className="nine columns main-col">
+						{/* <h2>About Me</h2>
 
 						<p>{bio}</p>
 						<div className="row">
@@ -39,9 +39,14 @@ class About extends Component {
 									</a>
 								</p>
 							</div>
-						</div>
-					</div> */}
+						</div> */}
+					</div>
 				</div>
+				{/* <p className="scrolldown">
+					<a className="smoothscroll" href="#portfolio">
+						<i className="icon-down-circle"></i>
+					</a>
+				</p> */}
 			</section>
 		);
 	}

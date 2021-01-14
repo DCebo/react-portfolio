@@ -6,13 +6,13 @@
 		"image": "",
 		"bio": "I have gained strategic experience from working within both larger corporations and bootstrapping startups. This in turn helped me accumulate a demonstrated history of developing applications and working with teams that increase growth and help improve those around me.",
 		"contactmessage": "Reach out to me for any further details.",
-		"email": "email@email.com",
+		"email": "david@davidceballos.me",
 		"address": {
 			"city": "Marietta",
 			"state": "GA"
 		},
 		"website": "davidceballos.me",
-		"resumedownload": ".",
+		"resumedownload": "",
 		"social": [
 			{
 				"name": "linkedin",
@@ -66,7 +66,7 @@
 		"skills": [
 			{
 				"name": "",
-				"level": "100%"
+				"level": ""
 			}
 		]
 	},

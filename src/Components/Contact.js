@@ -13,7 +13,9 @@ const Contact = ({ data }) => {
 
 	const handleClick = (e) => {
 		e.preventDefault();
-		window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+		window.open(
+			`mailto:david@davidceballos.me?subject=${subject}&body=${name}: ${message}`
+		);
 	};
 
 	return (
@@ -102,7 +104,7 @@ const Contact = ({ data }) => {
 						</fieldset>
 					</form>
 
-					<div id="message-warning"> Error boy</div>
+					<div id="message-warning">Error</div>
 					<div id="message-success">
 						<i className="fa fa-check"></i>Your message was sent, thank you!
 						<br />
@@ -110,7 +112,7 @@ const Contact = ({ data }) => {
 				</div>
 
 				<aside className="four columns footer-widgets">
-					<div className="widget widget_contact">
+					{/* <div className="widget widget_contact">
 						<h4>Location</h4>
 						<p className="address">
 							{data?.name}
@@ -118,15 +120,15 @@ const Contact = ({ data }) => {
 							{data?.address.city}, {data?.address.state}
 							<br />
 						</p>
-					</div>
+					</div> */}
 
-					<div className="resume__downloadButton">
-						<a href="/home">
-							<button className="button" href="/home">
+					{/* <div className="resume__downloadButton">
+						<a href="https://drive.google.com/file/d/1Q4a6FKP78ivvfd9BB2QyPfkkp0wG8miF/view?usp=sharing">
+							<button className="button">
 								<i className="fa fa-download"></i> Resume Download
 							</button>
 						</a>
-					</div>
+					</div> */}
 				</aside>
 			</div>
 		</section>
